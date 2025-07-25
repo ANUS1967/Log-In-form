@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color:rgb(192, 191, 191); */
+}
+.box{
+    width: 370px;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.3), 0 4px 19px 0rgb(0,0,0,0.19);
+    border-radius: 20px;
+    background-color: rgb(14, 12, 12);
+    color: white;
+    font-size: 22px;
+
+}
+input{
+    width: 90%;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    outline: none;
+    color: azure;
+    font-size: 17px;
+}
+input :focus{
+    border-bottom: 1px solid rgb(253, 148, 110);
+
+}
+.btn{
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(25, 133, 255);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    /* color:; */
+    font-size: 15px;    
+    /* transition-duration: 2ms; */
+}
+.signup span{
+    color: blue;
+    cursor: pointer;
+}
